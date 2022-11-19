@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUVI</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="form">
+        <form method="post" autocomplete="off" id="myForm"> 
+            <div class="title">REGISTRATION FORM </div>
+            <div class="form-message"></div>
+
+            <div class="row">
+                <div class="field-column">
+                    <label>NAME</label>
+                    <input type="text" name="username" placeholder="Name" id="username">
+                </div>
+
+                <div class="field-column">
+                    <label>DATE OF BIRTH</label>
+                    <input type="date" name="DOB" placeholder="Date of Birth" id="dob">
+                </div>
+
+                <div class="gender-details">
+                    <label>GENDER</label>
+                    <input type="radio" name="gender" value="male" class="gender" id="gender"> Male
+                    <input type="radio" name="gender" value="female" class="gender" id="gender"> Female
+                </div>
+
+
+                <div class="field-column">
+                    <label>MOBILE NUMBER</label>
+                    <input type="tel" name="contact" placeholder="MOBILE NUMBER" id="contact">
+                </div>
+
+                <div class="field-column">
+                    <label>EMAIL</label>
+                    <input type="email" name="email" placeholder="Email" id="email">
+                </div>
+
+                <div class="field-column">
+                    <label>PASSWORD</label>
+                    <input type="password" name="password" placeholder="Password" id="password">
+                </div>
+
+                <div class="field-column">
+                    <label>CONFIRM PASSWORD</label>
+                    <input type="password" name="password" placeholder="Confirm Password" id="cpassword">
+                
+                </div>
+                <button type="submit" id="register">Submit</button>
+            </div>
+        </form>
+        <a href="login.html">Login Page</a>
+    </div>
+    <!-- <script type="text/javascript" src="./js/register.js"></script> -->
+    <script src="./js/register.js"></script>
+</body>
+
+</html>
